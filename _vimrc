@@ -9,6 +9,11 @@ map <F8> <C-W><C-H>:wq<CR>
 map <F5> <C-W><C-H>
 map <F6> <C-W><C-L>
 
+"绑定快捷键 在普通模式下连按两次句号：备忘文档向下翻页
+"      连按两次逗号：备忘文档向上翻页
+nmap .. <C-W><C-H><C-D><C-W><C-L>
+nmap ,, <C-W><C-H><C-U><C-W><C-L>
+
 "函数体：请将“D:/GVim/Vim/tags/HTML_tag.txt”修改成您的HTML备忘文件的目录。
 "将D:/GVim/Vim/tags/C_tag.txt 修改成您的C语言备忘文件的目录，以此类推。
 "如需增添新的语言类型，在函数中增添elseif项即可。
