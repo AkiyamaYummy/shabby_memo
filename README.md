@@ -7,10 +7,13 @@
 极致的用户自定义化，安装0难度，让没有代码补全而陷入绝望的你和我更加绝望。    
 是不是很寒酸呢？  
   
+安装方式：将 _vimrc 文件里的内容复制到您的vim配置文件中。然后改下备忘文档的路径，并在你设置的路径下创建自己的备忘文档。  
+每种文件会对应不同的文档。  
+  
+使用方式：F7 你自己设置的备忘文档就会从右边冒出来；  
+F5 将光标跳到左分屏；F6 将光标跳到右分屏。  
+  
 测试截图（效果见左侧分屏）：  
-![](http://thumbnail0.baidupcs.com/thumbnail/6c35035b51bf4c18ed00352145ea3b47?fid=3305955985-250528-677141907130895&time=1489478400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tdMi2CB%2fV%2bl5srEfWQQ6AdWkHYg%3d&expires=8h&chkbd=0&chkv=0&dp-logid=1686234590650723448&dp-callid=0&size=c10000_u10000&quality=90 "截图")
-使用方法：F7 打开备忘文档；  
-F5 将光标跳到左分屏；  
-F6 将光标跳到右分屏。  
+![](http://thumbnail0.baidupcs.com/thumbnail/6c35035b51bf4c18ed00352145ea3b47?fid=3305955985-250528-677141907130895&time=1489478400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tdMi2CB%2fV%2bl5srEfWQQ6AdWkHYg%3d&expires=8h&chkbd=0&chkv=0&dp-logid=1686234590650723448&dp-callid=0&size=c10000_u10000&quality=90 "截图")  
   
 相信你也能感受到被YCM和Ctags的安装难度折磨了整三天却根本没安装成功的我，是有多么绝望。  
