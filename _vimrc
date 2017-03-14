@@ -1,21 +1,22 @@
-"ÉèÖÃÄ¬ÈÏÒ³Ãæ³ß´ç
+"è®¾ç½®é»˜è®¤é¡µé¢å°ºå¯¸
 set lines=40 columns=120
 
-"°ó¶¨F7¹¦ÄÜ£º´ò¿ªÌáÊ¾Ò³Ãæ
+"ç»‘å®šF7ã€F8åŠŸèƒ½ï¼šæ‰“å¼€å’Œå…³é—­æç¤ºé¡µé¢
 map <F7> :call Tags()<CR>:vertical resize -30<CR><C-W><C-L>
+map <F8> <C-W><C-H>:wq<CR>
 
-"°ó¶¨F5¡¢F6¹¦ÄÜ£º½«¹â±êÒÆµ½×ó·ÖÆÁºÍÓÒ·ÖÆÁ
+"ç»‘å®šF5ã€F6åŠŸèƒ½ï¼šå°†å…‰æ ‡ç§»åˆ°å·¦åˆ†å±å’Œå³åˆ†å±
 map <F5> <C-W><C-H>
 map <F6> <C-W><C-L>
 
-"º¯ÊıÌå£ºÇë½«¡°D:/GVim/Vim/tags/HTML_tag.txt¡±ĞŞ¸Ä³ÉÄúµÄHTML±¸ÍüÎÄ¼şµÄÄ¿Â¼¡£
-"½«D:/GVim/Vim/tags/C_tag.txt ĞŞ¸Ä³ÉÄúµÄCÓïÑÔ±¸ÍüÎÄ¼şµÄÄ¿Â¼£¬ÒÔ´ËÀàÍÆ¡£
-"ÈçĞèÔöÌíĞÂµÄÓïÑÔÀàĞÍ£¬ÔÚº¯ÊıÖĞÔöÌíelseifÏî¼´¿É¡£
-"Ğ¦ËÀÁË¡­¡­Ì«¼òÂªÁË¡­¡­
+"å‡½æ•°ä½“ï¼šè¯·å°†â€œD:/GVim/Vim/tags/HTML_tag.txtâ€ä¿®æ”¹æˆæ‚¨çš„HTMLå¤‡å¿˜æ–‡ä»¶çš„ç›®å½•ã€‚
+"å°†D:/GVim/Vim/tags/C_tag.txt ä¿®æ”¹æˆæ‚¨çš„Cè¯­è¨€å¤‡å¿˜æ–‡ä»¶çš„ç›®å½•ï¼Œä»¥æ­¤ç±»æ¨ã€‚
+"å¦‚éœ€å¢æ·»æ–°çš„è¯­è¨€ç±»å‹ï¼Œåœ¨å‡½æ•°ä¸­å¢æ·»elseifé¡¹å³å¯ã€‚
+"ç¬‘æ­»äº†â€¦â€¦å¤ªç®€é™‹äº†â€¦â€¦
 func! Tags()
     if &filetype == 'html' 
         :vsplit D:/GVim/Vim/tags/HTML_tag.txt
     elseif &filetype == 'c'
-        ::vsplit D:/GVim/Vim/tags/C_tag.txt
+        :vsplit D:/GVim/Vim/tags/C_tag.txt
     endif
 endfunc
