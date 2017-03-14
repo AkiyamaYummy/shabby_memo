@@ -2,7 +2,7 @@
 set lines=40 columns=120
 
 "绑定F7、F8功能：打开和关闭提示页面
-map <F7> :call Tags()<CR>:vertical resize -30<CR><C-W><C-L>
+map <F7> :call Tags()<CR>:vertical resize -30<CR>:0<CR><C-W><C-L>
 map <F8> <C-W><C-H>:wq<CR>
 
 "绑定F5、F6功能：将光标移到左分屏和右分屏
