@@ -17,6 +17,4 @@ F5 将光标跳到左分屏；F6 将光标跳到右分屏，可以随时修改�
 相信你也能感受到被YCM和Ctags的安装难度折磨了整三天却根本没安装成功的我，是有多么绝望。  
   
 测试截图（效果见左侧分屏）：  
-![](http://thumbnail0.baidupcs.com/thumbnail/6c35035b51bf4c18ed00352145ea3b47?fid=3305955985-250528-677141907130895&time=1489478400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tdMi2CB%2fV%2bl5srEfWQQ6AdWkHYg%3d&expires=8h&chkbd=0&chkv=0&dp-logid=1686234590650723448&dp-callid=0&size=c10000_u10000&quality=90 "截图")  
-  
-
+![](http://thumbnail0.baidupcs.com/thumbnail/6c35035b51bf4c18ed00352145ea3b47?fid=3305955985-250528-677141907130895&time=1489654800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-YHOzpjkXLRz4ZBbJ4O3yLHv6SLc%3d&expires=8h&chkbd=0&chkv=0&dp-logid=1733064088705418632&dp-callid=0&size=c10000_u10000&quality=90)
